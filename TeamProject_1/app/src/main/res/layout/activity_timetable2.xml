@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".timetableActivity2">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="시간표"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/tt_grid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        app:columnCount="6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintVertical_bias="1.0"
+        app:orientation="horizontal"
+        app:rowCount="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#C9FF8B"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_vertical"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:background="#C9FF8B"
+            android:gravity="center"
+            android:text="월"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:background="#C9FF8B"
+            android:gravity="center"
+            android:text="화"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:background="#C9FF8B"
+            android:gravity="center"
+            android:text="수"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:background="#C9FF8B"
+            android:gravity="center"
+            android:text="목"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:background="#C9FF8B"
+            android:gravity="center"
+            android:text="금"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="0dp"
+            android:background="#C9FF8B"
+            android:gravity="center"
+            android:text="1"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_vertical"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_1_1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_2_1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_3_1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_4_1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_5_1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#C9FF8B"
+            android:gravity="center"
+            android:text="2"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_vertical"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_1_2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_2_2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_3_2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_4_2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_5_2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#C9FF8B"
+            android:gravity="center"
+            android:text="3"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_vertical"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_1_3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_2_3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_3_3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_4_3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_5_3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#C9FF8B"
+            android:gravity="center"
+            android:text="4"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_vertical"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_1_4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_2_4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_3_4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_4_4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_5_4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#C9FF8B"
+            android:gravity="center"
+            android:text="5"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_vertical"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_1_5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_2_5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_3_5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_4_5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_5_5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#C9FF8B"
+            android:gravity="center"
+            android:text="6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_vertical"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_1_6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_2_6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_3_6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_4_6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_5_6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#C9FF8B"
+            android:gravity="center"
+            android:text="7"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_vertical"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_1_7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_2_7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_3_7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_4_7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_5_7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#C9FF8B"
+            android:gravity="center"
+            android:text="8"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_vertical"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_1_8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_2_8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_3_8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_4_8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_5_8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#C9FF8B"
+            android:gravity="center"
+            android:text="9"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_vertical"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_1_9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_2_9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_3_9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_4_9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/tv_5_9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
